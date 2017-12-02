@@ -24,7 +24,9 @@
             android:name=".UserProfile"
             android:theme="@style/logintheme" />
         <activity android:name=".Sample" />
-        <activity android:name=".Faculty"></activity>
+        <activity android:name=".Faculty" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Upload"></activity>
     </application>
 
 </manifest>
