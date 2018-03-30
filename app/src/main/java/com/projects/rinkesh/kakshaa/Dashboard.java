@@ -24,7 +24,7 @@ public class Dashboard extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -36,7 +36,6 @@ public class Login extends AppCompatActivity {
     public void loginbtn(View view) {
 
         Intent loginIntent = new Intent(this, Dashboard.class);
-        //overridePendingTransition(R.anim.fade_in,R.anim.fade_out);
         startActivity(loginIntent);
     }
 }
