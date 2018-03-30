@@ -24,7 +24,7 @@ public class Dashboard extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        
+
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -76,8 +76,13 @@ public class Dashboard extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.newsfeed) {
-            // Handle the camera action
+            Intent intent = new Intent(this, Upload.class);
+            startActivity(intent);
+
         } else if (id == R.id.attendance) {
+
+            Intent intent = new Intent(this, Attendance.class);
+            startActivity(intent);
 
         } else if (id == R.id.timetable) {
 

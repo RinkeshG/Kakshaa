@@ -4,14 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.projects.rinkesh.kakshaa.Upload">
+    tools:context="com.projects.rinkesh.kakshaa.Upload"
+    android:background="@color/black">
 
     <LinearLayout
         android:id="@+id/postlayout"
-        android:layout_width="match_parent"
+        android:layout_width="360dp"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:background="@drawable/postback">
+        android:background="@drawable/postback"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="5dp">
 
         <LinearLayout
             android:id="@+id/postbtnpanel"
@@ -120,17 +126,6 @@
         </LinearLayout>
     </LinearLayout>
 
-    <Button
-        android:layout_width="200dp"
-        android:layout_height="60dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="51dp"
-        android:background="@drawable/postback"
-        android:text="Post"
-        android:textColor="@color/colorAccent"
-        android:fontFamily="serif"
-        android:textSize="20sp"/>
 
 
 

@@ -26,7 +26,8 @@
         <activity android:name=".Sample" />
         <activity android:name=".Faculty" />
         <activity android:name=".Settings" />
-        <activity android:name=".Upload"></activity>
+        <activity android:name=".Upload" />
+        <activity android:name=".Attendance"></activity>
     </application>
 
 </manifest>
